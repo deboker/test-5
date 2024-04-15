@@ -1,6 +1,11 @@
 {
     "name": "andrejandrasik/todo",
     "description": "A simple PHP Todo application",
-    "require": {}
+    "require": {
+        "ext-pdo_sqlite": "*",
+        "ext-sqlite3": "*",
+        "php": "^7.4 || ^8.0"
+      }
+    
   }
   
